@@ -11,7 +11,7 @@ use Magento\Framework\Autoload\AutoloaderRegistry;
 use Magento\Framework\Autoload\ClassLoaderWrapper;
 
 /**
- * Shortcut constant for the root directory
+ * Shortcut constant for the root directorys
  */
 \define('BP', \dirname(__DIR__));
 
