@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Anees_Quote::menu" title="Cer" module="Anees_Quote" sortOrder="10" resource="Anees_Quote::menu"/>
+        <add id="Anees_Quote::create" title="Create" module="Anees_Quote" sortOrder="10" parent="Anees_Quote::menu" action="custommenu/create/index" resource="Anees_Quote::create"/>
+        <add id="Anees_Quote::delete" title="Delete" module="Anees_Quote" sortOrder="20" parent="Anees_Quote::menu" action="custommenu/delete/index" resource="Anees_Quote::delete"/>
+        <add id="Anees_Quote::view" title="View" module="Anees_Quote" sortOrder="30" parent="Anees_Quote::menu" action="custommenu/view/index" resource="Anees_Quote::view"/>
+    </menu>
+</config>
