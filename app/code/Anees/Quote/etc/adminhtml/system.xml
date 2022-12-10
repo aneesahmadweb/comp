@@ -2,12 +2,12 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
         <!-- PLACE YOUR MODULE SPECIFIC CONFIGURATION HERE -->
-        <tab id="catalog" translate="label"  sortOrder="10">
+        <tab id="Cer" translate="label"  sortOrder="10">
         <label>Quote</label>
         </tab>
         <section id="certsection" showInDefault="1" showInWebsite="0" showInStore="1" sortOrder="10" translate="label">
             <label>A meaningful section label</label>
-            <tab>catalog</tab>
+            <tab>Cer</tab>
             <resource>Anees_Quote::menu</resource>
             <!--Group-->
 
