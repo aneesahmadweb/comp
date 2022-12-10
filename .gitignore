@@ -1,5 +1,3 @@
-/m2
-/index.html
 /.buildpath
 /.cache
 /.metadata
@@ -66,7 +64,6 @@ atlassian*
 !/pub/media/sitemap/.htaccess
 /pub/static/*
 !/pub/static/.htaccess
-/.idea
 
 /var/*
 !/var/.htaccess
